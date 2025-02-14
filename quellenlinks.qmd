@@ -1,0 +1,10 @@
+---
+title: "Einbinden von Links als Quelle"
+format: html
+---
+
+In vielen Fällen ist es sinnvoll, z.B. in den Quellenangaben eines Liedes einen Link zu einer Webseite zu hinterlegen. Leider sind Webseiten nicht für die Ewigkeit und können jederzeit aus dem Netz verschwinden. Daher verlinken wir Webseiten nicht direkt, sondern über die „WayBackMachine“ des Internet Archive [web.archive.org](https://web.archive.org).
+
+Dazu öffnet man das [Archivierungstool des Internet Archive](https://web.archive.org/save), fügt unter `Save Page Now` seinen Link ein und klickt auf `Save Page`. Der momentane Zustand der Webseite unter diesem Link wird nun durch das Internet Archive archiviert. Nach Abschluss des Vorgangs spuckt das Archivierungstool einen Link im Format „https://web.archive.org/web/XXXXXXXXXXXXXX/`ursprüngliche URL`“ aus. Diesen Link kopiert man und fügt ihn in die Quelldatei ein.
+
+Das muss nicht für Wikipedia-Links gemacht werden, da davon auszugehen ist, dass Wikipedia ähnlich lange überleben wird wie das Internet Archive.
